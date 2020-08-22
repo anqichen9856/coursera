@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: Didot, sans-serif;
+}
+
+#header-nav {
+    background-color: seashell;
+}
+
+.navbar-brand {
+    font-size: 1.4em;
+    font-family: Palatino;
+}
+
+#nav-list {
+    background-color: mistyrose;
+}
+
+#nav-list li {
+    border-bottom: grey 1px dashed;
+    padding: 5px auto;
+    font-size: 1.2em;
+}
+
+#nav-list li:nth-child(3) {
+    border-bottom: mistyrose;
+} 
+
+h1 {
+    margin: 60px auto 50px auto;
+    font-family: Snell Roundhand;
+    font-size: 60px;
+}
+
+.row {
+    margin: auto 20px;
+}
+
+section {
+    background-color: lavenderblush;
+    margin: 20px 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 30px;
+}
+
+/* section h3 {
+    font-family: Snell Roundhand;
+} */
+
+section a {
+    color: gray;
+    margin-left: 30px;
+    font-size: 1.1em;
+}
+
+section a:link {
+    text-decoration: none;
+    color: black;
+}
